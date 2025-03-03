@@ -110,6 +110,8 @@ INSTALLED_APPS = [
     'ansible_base.resource_registry',
     'ansible_base.rbac',
     'social_django',
+    'flags',
+    'ansible_base.feature_flags',
     'dynaconf_merge_unique',
 ]
 
@@ -447,3 +449,6 @@ ALLOW_LOCAL_RESOURCE_MANAGEMENT = True
 
 # https://github.com/ansible/django-ansible-base/pull/611
 RENAMED_USERNAME_PREFIX = "galaxy_"
+
+# feature flags
+FLAGS = {}

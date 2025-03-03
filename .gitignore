@@ -87,6 +87,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+gng_int_testing/
+gng_unit_testing/
 .compose.env
 
 # Spyder project settings
@@ -108,6 +110,8 @@ venv.bak/
 
 # Galaxy NG
 db_snapshots/
+temp_roles/*
+.gitconfig
 
 # oci-env profile files
 .compiled/
